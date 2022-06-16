@@ -18,18 +18,34 @@ Four pages:
 
 General styling:
 
-H1:
- - Font:
- - Size:
- - Color:
+Headers:
+ - Font:  Garamound
+ - Size (h1): 32px
+ - size (h2): 24px
+ - Color: black
  
 Other text:
- - Font:
- - Size:
- - Color:
+ - Font: Garamound
+ - Size: 18px
+ - Color: black
  
+Main page background color: paper color (Beige?)
+
 Nav bar:
- - Background color:
- - Text Color:
- - Background color (selected/hover):
- - Text color (selected/hover):
+ - Background color: black
+ - Text Color: muted yellow
+ - Background color (selected/hover): muted yellow
+ - Text color (selected/hover): black
+ 
+Form:
+ - Text color: black
+ - Background color: light-grey
+ - Button - styling: Rounded corners, grey, ornate?
+ 
+Links styling:
+ - No underline
+ - Text color/hover text color (red/green)
+ 
+Pictures styling:
+ - Box background color: light-blue
+ - Box text color: dark-green
