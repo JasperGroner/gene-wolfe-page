@@ -1,21 +1,55 @@
 * {
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #F2EECB;
 }
 
-header ul{
+header ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: 0;
 }
 
-header ul li{
-    margin: 0 10px;
+header li {
+    margin: 0;
+    display: flex;
+    border: 1px solid black;
 }
 
-h1{
+header a {
+    background-color: grey;
+    padding: 10px 40px;
+
+}
+
+header a:hover, header li:hover{
+    background-color: lightgray;
+}
+
+.current-page{
+    background-color: lightgray;
+    color:darkgreen;
+    padding: 10px 40px;
+}
+
+h1 {
     text-align: center;
     text-decoration: underline;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    color: darkgreen;
 }
 
 .page-wrapper {
@@ -23,23 +57,45 @@ h1{
     margin: 0 auto;
 }
 
-.right-image{
+.right-image {
     float: right;
     margin: 10px;
 }
 
 form {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 
-.side-by-side{
-    display: flex;
+legend {
+    border: 1px solid grey;
+    background-color: #E4E4E4;
 }
 
-.form-row{
+fieldset, label, button, fieldset div {
+    background-color: lightgrey;
+}
+
+input, textarea {
+    background-color: #E4E4E4;
+}
+
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+nav a{
+    font-size: 22px;
 }
 
 .card {
