@@ -2,6 +2,12 @@
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     background-color: #F2EECB;
+    scrollbar-gutter: stable;
+}
+
+body {
+    margin:0;
+    scrollbar-gutter: stable;
 }
 
 header ul {
@@ -31,6 +37,33 @@ header a:hover, header li:hover{
     background-color: lightgray;
     color:darkgreen;
     padding: 10px 40px;
+}
+
+.left-header {
+    border-top: 3px darkred outset;
+    border-left: 3px darkred outset;
+    border-bottom: 3px black outset;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.left-header-a{
+    border-radius: 11px 0px 0px 11px;
+}
+
+.center-header {
+    border-top: 3px darkred outset;
+    border-bottom: 3px black outset;
+}
+
+.right-header {
+    border-top: 3px darkred outset;
+    border-right: 3px black outset;
+    border-bottom: 3px black outset;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.right-header-a {
+    border-radius: 0px 11px 11px 0px;
 }
 
 h1 {
