@@ -4,42 +4,45 @@
     <head>
         <meta charset="utf-8">
         <title>A Message for the Memory Palace</title>
+        <link href="styling.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <ul>
-                <li><a href="main-page.html">Main</a></li>
-                <li class="current-page">Leave a Message</li>
-                <li><a href="links.html">Other Resources</a></li>
-                <li><a href="books.html">Books</a></li>
-            </ul>
-        </header>
-        <form action="" method="post">
-            <fieldset>
-                <legend>Leave a Fan Message</legend>
-                <div>
-                    <div>
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="first_name">
+        <div class="page-wrapper">
+            <header>
+                <ul>
+                    <li><a href="main-page.html">Main</a></li>
+                    <li class="current-page">Leave a Message</li>
+                    <li><a href="links.html">Other Resources</a></li>
+                    <li><a href="books.html">Books</a></li>
+                </ul>
+            </header>
+            <h1>Memory Palace</h1>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Leave a Fan Message</legend>
+                    <div class="side-by-side form-row">
+                        <div>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="first_name">
+                        </div>
+                        <div>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="last_name">
+                        </div>
                     </div>
-                    <div>
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="last_name">
+                    <div class="form-row">
+                        <input type="checkbox" id="makePublic" name="make_public">
+                        <label for="makePublic">Make My Message Public</label>
                     </div>
-                </div>
-                <div>
-                    <input type="checkbox" id="makePublic" name="make_public">
-                    <label for="makePublic">Make My Message Public</label>
-                </div>
-                <div>
-                    <label for="message">My Thoughts on Gene Wolfe:</label>
-                    <textarea id="message" name="comments"></textarea>
-                </div>
-                <div>
-                    <button type="submit">Add to the Memory Palace</button>
-                </div>
-            </fieldset>
-        </form>
-
+                    <div class="form-row">
+                        <label for="message">My Thoughts on Gene Wolfe:</label>
+                        <textarea id="message" name="message" rows="10" cols="70"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Add to the Memory Palace</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </body>
 </html>

@@ -1,3 +1,54 @@
 * {
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+header ul li{
+    margin: 0 10px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.page-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.right-image{
+    float: right;
+    margin: 10px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.side-by-side{
+    display: flex;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    width: 275px;
+    margin: 0 auto 20px;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
